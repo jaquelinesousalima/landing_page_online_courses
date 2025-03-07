@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+    background-color: #EAE0D2;
+    color: #2D2D2D;
+}
+
+header {
+    padding: 2rem;
+    text-align: center;
+    background-color: #2D2D2D;
+    color: #EAE0D2;
+}
+
+header p {
+    color: #D7C9AE;
+}
+
+main {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+section h2 {
+    color: #A68763;
+}
+
+ul {
+    margin-left: 1.5rem;
+}
+
+ul li {
+    padding: 0.2rem;
+}
+
+button {
+    padding: 0.8rem;
+    background-color: #2D2D2D;
+    color: #EAE0D2;
+    border: 0.2rem solid #2D2D2D;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: medium;
+}
+
+button:hover {
+    border: 0.2rem solid #A68763;
+}
+
+.email {
+    color: #A68763;
+}
+
+footer {
+    padding: 2rem;
+    text-align: center;
+    background-color: #A68763;
+    color: #EAE0D2;
+}
+
+footer h2 {
+    color: #2D2D2D;
+}
+
+footer ul {
+    text-align: left;
+    padding: 1rem;
+}
+
+footer ul a {
+    text-decoration: none;
+    color: #EAE0D2;
+}
